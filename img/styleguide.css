@@ -1,44 +1,81 @@
-:root {
-    --background-color: #D9A795;
-    --black: #000000;
-    --old-lace: #fcf6e4;
-    
-    --font-size-l: 36px;
-    --font-size-m: 24px;
-    --font-size-xl: 40px;
-    --font-size-xxl: 64px;
-    --font-size-xxxl: 96px;
-    
-    --font-family-inter: "Inter", Helvetica;
-    --font-family-kurale: "Kurale", Helvetica;
-    --font-family-montserrat: "Montserrat", Helvetica;
+.my-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
   }
   
-  body {
-    background-color: var(--background-color);
+  .skill-item {
+    width: 33%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
-  .kurale-normal-old-lace-64px {
-    color: var(--old-lace);
+  .skill-item h3 {
+    font-size: var(--font-size-l);
+    font-family: var(--font-family-montserrat);
+    margin-bottom: 20px;
+  }
+  
+  .skill-item p {
+    font-size: var(--font-size-s);
     font-family: var(--font-family-kurale);
-    font-size: var(--font-size-xxl);
-    font-style: normal;
-    font-weight: 400;
+    line-height: 1.5;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-gap: 20px;
+    grid-template-areas:
+      "tripAssist . cafeConnect"
+      "workImage1 workImage2 workImage3"
+      "viewCaseStudy1 viewCaseStudy2 viewCaseStudy3";
   }
   
-  .inter-extra-bold-black-40px {
-    color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-xl);
-    font-style: normal;
-    font-weight: 800;
+  .tripAssist {
+    grid-area: tripAssist;
   }
   
-  .inter-extra-bold-black-36px {
-    color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-xl);
-    font-style: normal;
-    font-weight: 800;
+  .cafeConnect {
+    grid-area: cafeConnect;
   }
+  
+  .theStop {
+    grid-area: theStop;
+  }
+  
+  .workImage1 {
+    grid-area: workImage1;
+    background-image: url('img/workImage1.jpg');
+    background-size: cover;
+  }
+  
+  .workImage2 {
+    grid-area: workImage2;
+    background-image: url('img/workImage2.jpg');
+    background-size: cover;
+  }
+  
+  .workImage3 {
+    grid-area: workImage3;
+    background-image: url('img/workImage3.jpg');
+    background-size: cover;
+  }
+  
+  .viewCaseStudy1 {
+    grid-area: viewCaseStudy1;
+  }
+  
+  .viewCaseStudy2 {
+    grid-area: viewCaseStudy2;
+  }
+  
+  .viewCaseStudy3 {
+    grid-area: viewCaseStudy3;
+  }
+  
   
