@@ -1,0 +1,30 @@
+:root {
+    --black: #000000;
+    --background-color: #D9A795;
+    --font-size-l: 36px;
+    --font-size-m: 32px;
+    --font-size-s: 24px;
+    --font-size-xl: 64px;
+    --font-size-xxl: 128px;
+    --font-family-kurale: "Kurale", Helvetica;
+    --font-family-montserrat: "Montserrat", Helvetica;
+    
+    background-color: var(--background-color);
+  }
+  
+  .kurale-normal-black-64px {
+    color: var(--black);
+    font-family: var(--font-family-kurale);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .kurale-normal-black-32px {
+    color: var(--black);
+    font-family: var(--font-family-kurale);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  

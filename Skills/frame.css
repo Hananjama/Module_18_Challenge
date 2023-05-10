@@ -1,0 +1,187 @@
+/* screen - frame-20 */
+
+.frame-20 {
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    min-width: 2319px;
+    overflow-x: hidden;
+  }
+  
+  .frame-20 .overlap-group1 {
+    margin-left: -974px;
+    position: relative;
+  }
+  
+  .frame-20 .overlap-group {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .frame-20 .rectangle-888 {
+    background-color: #d9a795;
+    height: 3520px;
+    left: 986px;
+    position: absolute;
+    top: 0;
+    width: 2161px;
+  }
+  
+  .frame-20 .title {
+    color: var(--black);
+    font-family: var(--font-family-kurale);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    left: 1126px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 97px;
+  }
+  
+  .frame-20 .user-research {
+    left: 1282px;
+    top: 386px;
+  }
+  
+  .frame-20 .image-1 {
+    height: 200px;
+    left: 1382px;
+    top: 533px;
+    width: 200px;
+  }
+  
+  .frame-20 .im-a-ux-researcher {
+    left: 1072px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 783px;
+    width: 1024px;
+  }
+  
+  .frame-20 .vector-1 {
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 320px;
+    width: 5289px;
+  }
+  
+  .frame-20 .user-empathy {
+    left: 2344px;
+    top: 1259px;
+  }
+  
+  .frame-20 .image-2 {
+    height: 200px;
+    left: 2444px;
+    top: 1377px;
+    width: 200px;
+  }
+  
+  .frame-20 .my-approach-to-user {
+    left: 2028px;
+    top: 1624px;
+    width: 1069px;
+  }
+  
+  .frame-20 .qualitative-research {
+    left: 1244px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2264px;
+  }
+  
+  .frame-20 .image-3 {
+    height: 321px;
+    left: 1356px;
+    top: 2383px;
+    width: 356px;
+  }
+  
+  .frame-20 .my-approach-to-quali {
+    left: 1096px;
+    top: 2776px;
+    width: 1348px;
+  }
+  
+  .frame-20 .hananjamaaagmailcom-linked-in {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    left: 1422px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3410px;
+  }
+  
+  .frame-20 .rectangle-889 {
+    background-color: #fcf6e4;
+    height: 212px;
+    left: 516px;
+    position: absolute;
+    top: 3305px;
+    width: 6794px;
+  }
+  
+  .frame-20 .lets-chat-le {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    left: 1068px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3352px;
+    width: 2130px;
+  }
+  
+  .frame-20 .hananjamaaagmailcom-linked-in-1 {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    left: 1770px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3393px;
+  }
+  
+  .frame-20 .vector-2 {
+    height: 7px;
+    left: 3287px;
+    position: absolute;
+    top: 212px;
+    width: 7px;
+  }
+  
+  .frame-20 .image {
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .frame-20 .my-approach-to {
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+  }
+  
+  .frame-20 .overlap {
+    height: 3520px;
+    width: 7310px;
+  }
+  
+  .frame-20 .user {
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+  }
