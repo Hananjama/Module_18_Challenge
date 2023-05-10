@@ -1,0 +1,44 @@
+:root {
+    --background-color: #D9A795;
+    --black: #000000;
+    --old-lace: #fcf6e4;
+    
+    --font-size-l: 36px;
+    --font-size-m: 24px;
+    --font-size-xl: 40px;
+    --font-size-xxl: 64px;
+    --font-size-xxxl: 96px;
+    
+    --font-family-inter: "Inter", Helvetica;
+    --font-family-kurale: "Kurale", Helvetica;
+    --font-family-montserrat: "Montserrat", Helvetica;
+  }
+  
+  body {
+    background-color: var(--background-color);
+  }
+  
+  .kurale-normal-old-lace-64px {
+    color: var(--old-lace);
+    font-family: var(--font-family-kurale);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .inter-extra-bold-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 800;
+  }
+  
+  .inter-extra-bold-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 800;
+  }
+  
